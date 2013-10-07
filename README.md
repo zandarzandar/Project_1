@@ -22,7 +22,7 @@ three items that are viewable.
 <ul>
     <li>" git add * "</li>
     <li>' git commit -m "message here" '</li>
-    <li>"git push origin master"</li>
+    <li>" git push origin master "</li>
 </ul>
 
 
