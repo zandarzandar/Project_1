@@ -19,14 +19,14 @@ into your console to update your local repo.
 3. Run index.html in chrome (or your browser of choice) and make sure that there is an input, button, and a list of
 three items that are viewable.
 4. Once you have made changes then update the github/master repo, so I can view your code.
-⋅⋅* " git add * "
+    ⋅⋅* " git add * "
 ⋅⋅* ' git commit -m "message here" '
 ⋅⋅* "git push origin master"
 
 
 #Project Instructions
 
-1. - [ ] Finish the addItem function that adds an item to our to do list.
+1. Finish the addItem function that adds an item to our to do list.
 2. Create a function called refreshList that will be called by other function to build out our list in the DOM. You will
 need to access the DOM element/id named todo-list and add a html list to it.
 3. Create a html button that when clicked will remove the last element of the list array object - Note: similar to add
