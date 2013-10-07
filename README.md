@@ -18,10 +18,10 @@ in a git repository if not then move to where the github app tells you the repos
 into your console to update your local repo.
 3. Run index.html in chrome (or your browser of choice) and make sure that there is an input, button, and a list of
 three items that are viewable.
-4. Once you have made changes then update the github/master repo, so I can view your code.\n
-    a. " git add * "\n
-    b. ' git commit -m "message here" '\n
-    c. "git push origin master"
+4. Once you have made changes then update the github/master repo, so I can view your code.
+⋅⋅* " git add * "
+⋅⋅* ' git commit -m "message here" '
+⋅⋅* "git push origin master"
 
 
 #Project Instructions
