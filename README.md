@@ -20,11 +20,10 @@ into your console to update your local repo.
 three items that are viewable.
 4. Once you have made changes then update the github/master repo, so I can view your code.
 <ul>
-    <li>test</li>
+    <li>" git add * "</li>
+    <li>' git commit -m "message here" '</li>
+    <li>"git push origin master"</li>
 </ul>
-⋅⋅* " git add * "
-⋅⋅* ' git commit -m "message here" '
-⋅⋅* "git push origin master"
 
 
 #Project Instructions
