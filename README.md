@@ -19,7 +19,10 @@ into your console to update your local repo.
 3. Run index.html in chrome (or your browser of choice) and make sure that there is an input, button, and a list of
 three items that are viewable.
 4. Once you have made changes then update the github/master repo, so I can view your code.
-    ⋅⋅* " git add * "
+<ul>
+    <li>test</li>
+</ul>
+⋅⋅* " git add * "
 ⋅⋅* ' git commit -m "message here" '
 ⋅⋅* "git push origin master"
 
