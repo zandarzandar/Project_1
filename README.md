@@ -1,4 +1,4 @@
 Project_1
 =========
 
-Homework
+JavaScript Homework - due date: 10/12/13
