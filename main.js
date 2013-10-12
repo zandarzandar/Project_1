@@ -2,8 +2,8 @@
 // Anonymous function that calls itself - this helps keep variables contained, so they don't leak into the global
 // scope.  This method of function is typically a little faster and should only be used for the file's main function.
 (function () {
-  // Best practice: initialize all variables at the beginning of the function wher they will be used.
-  var list = ["Write the to do app", "Create item", "Remove item"];
+  // Best practice: initialize all variables at the beginning of the function where they will be used.
+  var list = ["Write the to do app", "Create item", "Remove item", "Refresh List", "Test"];
 
 
   // This form of function lets you assign it to an object like object.addItem = function () {}. I prefer this form
@@ -15,12 +15,18 @@
     // This is the pure JavaScript way of accessing the DOM (Document Object Model).
     // here we are grabbing the textField element and assigning it to a variable so we can continue using it.
     var itemBeingAdded = document.getElementById("text-field");
-
+	list.push(itemBeingAdded.value);
     // TODO: Make sure to call the displayList Function when you are done adding an item to the list array.
+	displayList();
   };
 
   // TODO: Remember to add the removeItem function
-
+  this.removeItem = function () {
+	var index = (list.length-1);
+  	list.splice(index, 1);
+	displayList();
+  }
+  
   // This needs to be called when ever you change the list array object.
   var displayList = function () {
     var todoListElement = document.getElementById("todo-list"); // ul element
@@ -35,7 +41,7 @@
       todoListElement.appendChild(newLI);
     }
   };
+  
   displayList();
-
 
 })();
