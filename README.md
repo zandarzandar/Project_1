@@ -5,9 +5,8 @@ JavaScript Homework - due date: 10/12/13
 
 Project To Do List
 
-This project is to use the multiple parts of JavaScript that you have learned and apply them. You will need to use the
-web/google to learn how to reference JavaScript methods in order to implement some of the functionality for this
-project - list.push() appends an item to the end of a array.
+This project will be taking the todo list and replacing the JavaScript's DOM manipulation with jQuery's. I will be making
+this project difficult, and you will probably need help with certain parts, but you will have to wait until Saturday.
 
 #Git instructions:
 0. make sure git is working properly in your console by going to the console an typing " git ". If the command was not
@@ -28,10 +27,16 @@ three items that are viewable.
 
 #Project Instructions
 
-1. Finish the addItem function that adds an item to our to do list.
-2. Create a function called refreshList that will be called by other function to build out our list in the DOM. You will
-need to access the DOM element/id named todo-list and add a html list to it.
-3. Create a html button that when clicked will remove the last element of the list array object - Note: similar to add
-item button.
-4. Create a function called removeItem that will be called when the remove item button is pressed. This function will
-remove the last item on the list array. Note: use splice(index, 1) on the list array.
+#1. access the input with a jQuery.
+    a. make sure the the new text gets added to the array
+    b. no empty string can make it into the array
+    c. alert the user to an empty field
+#2. create a new list that will be for checked items (aka done items)
+    a. the list should mimic the current to do list
+    b. you will need to move items from the todo list to the complete/done list
+    c. you will need to add a checkbox to the current todo list
+    d. if the user clicks the checkbox then you handle the done action, so the user's completed item is moved to the done list
+#3. Extra credit: use jQuery UI to implement one of the featuers below
+    a. Drag and drop a feautre to and from the done list
+    b. slide animation of a item being completed
+    c. prettify the todo app with some jQuery UI elements
