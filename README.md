@@ -27,16 +27,16 @@ three items that are viewable.
 
 #Project Instructions
 
-1. access the input with a jQuery.
+#1. access the input with a jQuery.
     a. make sure the the new text gets added to the array
     b. no empty string can make it into the array
     c. alert the user to an empty field
-2. create a new list that will be for checked items (aka done items)
+#2. create a new list that will be for checked items (aka done items)
     a. the list should mimic the current to do list
     b. you will need to move items from the todo list to the complete/done list
     c. you will need to add a checkbox to the current todo list
     d. if the user clicks the checkbox then you handle the done action, so the user's completed item is moved to the done list
-3. Extra credit: use jQuery UI to implement one of the featuers below
+#3. Extra credit: use jQuery UI to implement one of the featuers below
     a. Drag and drop a feautre to and from the done list
     b. slide animation of a item being completed
     c. prettify the todo app with some jQuery UI elements
